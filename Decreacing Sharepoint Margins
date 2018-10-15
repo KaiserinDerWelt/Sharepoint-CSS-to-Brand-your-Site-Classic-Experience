@@ -1,0 +1,11 @@
+<!--Use this code to reduce the size of your content box in Sharepoint Online Classic Experience-->
+<!-You can implement this code directly in the style tags of your master page by using Sharepoint Designer or by a Embebed Code Snippet-->
+<!-Good luck!-->
+
+<Style>
+/*ContentBox resize */
+#contentBox{
+margin-left:20px!important;
+}
+
+</Style>
