@@ -1,0 +1,42 @@
+<!--Welcome to KaiserinDerWelt code-->
+<!--You can copy paste the following code in your css masterpage by using Sharepoint designer or add it directly in a embebed code snippet on
+Sharepoint Classic Experience-->
+<!--Warning: Before you lose  hours of productive work pay attention to next W-A-R-N-I-N-G : You CAN'T customize the modern view of Sharepoint 2016 by using this 
+code directly in the visual interface, any modification would have to be done throug the SPFx Framework-->
+
+<Style>
+/*Hide site icon*/
+
+#siteIcon {
+display: none;
+}
+/*Hide Search Box*/
+
+#DeltaPlaceHolderSearchArea { 
+display : none;
+}
+
+/*Hide title row*/
+
+#s4-titlerow { 
+display: none;
+}
+
+/*Hide title area */
+
+#titleAreaBox {
+display:none;
+}
+
+/*Hide place hoolder :Includes logotype, search bar in one action*/
+
+#DeltaPlaceHolderPageTitleInTitleArea {
+display:none;
+}
+
+/*Hide left navigation column */
+#sideNavBox {
+display:none;
+}
+
+</Style>
