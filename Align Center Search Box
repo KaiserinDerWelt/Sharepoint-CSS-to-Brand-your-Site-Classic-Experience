@@ -1,0 +1,17 @@
+
+/* Use this code in your master page or custom layout to align to the center the search bar snippet on Sharepoint 2010, 2013,2016*/
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript">
+$(document).ready(
+function () {
+setInterval(center,1000);
+});
+
+function center()
+{
+   $(".ms-floatLeft").css("float","none");
+   $(".ms-floatLeft").css("text-align","center");
+}
+</script>
+
