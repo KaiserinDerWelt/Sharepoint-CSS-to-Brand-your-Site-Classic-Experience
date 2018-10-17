@@ -1,0 +1,8 @@
+
+/* Use this code in your master page or custom layout to align the search bar snippet on Sharepoint 2010, 2013,2016*/
+
+.ms-sbtable-ex {
+ float:left;
+ margin-left:40%
+}
+
