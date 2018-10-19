@@ -1,0 +1,48 @@
+<!--Another day in my How to Sharepoint 9 to 5 -->
+<!--Use this script to save time into developing responsive web apps made from SCRATCH in Sharepoint Online Classic View-->
+
+<!--Mariana de San Juan Licona Aguilar
+desjmariana@web.de
+Github: KaiserinDerWelt
+   /\**/\
+ ( o_o  )_)
+ ,(u  u  ,),
+{}{}{}{}{}{} This is my cat Jorgito, the best Cat of the World -->
+<!Doctype HTML>
+<html>
+<head>
+  <!--Unicode Transformation Format-->
+  <meta charset="utf-8" />
+  <!-- Wiew port meta tag-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--UI FABRIC STYLES-->
+  <link rel="stylesheet" href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-js/1.4.0/css/fabric.min.css">
+    <link rel="stylesheet" href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-js/1.4.0/css/fabric.components.min.css">
+</head>
+<body>
+  <!--Script to call the app-->
+  <script type="text/javascript">
+          $(document).ready(function () {
+              LaunchResponsiveTest();
+          });
+      </script>
+      <div id="ResponsiveTestDiv">
+        <!--Grid System-->
+<div class="ms-Grid">
+<div class="ms-Grid-row">
+<div class="ms-Grid-col ms-u-sm12"><!--Mximum Grid Container sm12-->
+<div class="ms-fontSize-xl">
+          Responsive Template</div>
+</div>
+</div>
+</div>
+</div>
+      <!--End of app call-->
+      <!--JQuery CDN HERE-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+      <!--Script file for UI COMPONENTS  DO NOT MODIFY IT WOULD CRASH THE APP-->
+      <script type="text/javascript" src="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-js/1.4.0/js/fabric.min.js"></script>
+        <!--JS Reference from SiteLibrary, replace the source to link your html to your JS FILE-->
+      <script type="text/javascript" src="#"></script>
+</body>
+</html>
