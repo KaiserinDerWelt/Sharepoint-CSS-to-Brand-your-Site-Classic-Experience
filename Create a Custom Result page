@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?><!--SPG:
+
+This HTML file has been associated with a SharePoint Page Layout (.aspx file) carrying the same name.  While the files remain associated, you will not be allowed to edit the .aspx file, and any rename, move, or deletion operations will be reciprocated.
+
+To build the page layout directly from this HTML file, simply fill in the contents of content placeholders.  Use the Snippet Generator at https://YOUR SNIPPET CENTER URL  to create and customize additional content placeholders and other useful SharePoint entities, then copy and paste them as HTML snippets into your HTML code.   All updates to this file within content placeholders will automatically sync to the associated page layout.
+-->
+<!DOCTYPE html[]>
+<html lang="en" xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+    <head>
+        <!--MS:<asp:ContentPlaceHolder id="PlaceHolderPageTitle" runat="server">-->
+            <!--MS:<SharePoint:ProjectProperty Property="Title" runat="server">-->
+            <!--ME:</SharePoint:ProjectProperty>-->
+            <!--CS: Start Page Field: Title Snippet-->
+            <!--SPM:<%@Register Tagprefix="PageFieldFieldValue" Namespace="Microsoft.SharePoint.WebControls" Assembly="Microsoft.SharePoint, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c"%>-->
+            <!--MS:<PageFieldFieldValue:FieldValue FieldName="fa564e0f-0c70-4ab9-b863-0177e6ddd247" runat="server">-->
+            <!--ME:</PageFieldFieldValue:FieldValue>-->
+            <!--CE: End Page Field: Title Snippet-->
+        <!--ME:</asp:ContentPlaceHolder>-->
+        <!--MS:<asp:ContentPlaceHolder id="PlaceHolderAdditionalPageHead" runat="server">-->
+        <!--BOOTSTRAP HERE--->
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+           <!--Your CSS LINKS HERE-->
+           <link href="YOUR CSS LINK HERE" rel="stylesheet" type="text/css" ms-design-css-conversion="no" />
+           <!--Google fonts HERE-->
+            <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" />
+            <!--CS: Start Edit Mode Panel Snippet-->
+            <!--SPM:<%@Register Tagprefix="SharePoint" Namespace="Microsoft.SharePoint.WebControls" Assembly="Microsoft.SharePoint, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c"%>-->
+            <!--SPM:<%@Register Tagprefix="Publishing" Namespace="Microsoft.SharePoint.Publishing.WebControls" Assembly="Microsoft.SharePoint.Publishing, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c"%>-->
+            <!--MS:<Publishing:EditModePanel runat="server" id="editmodestyles">-->
+                <!--MS:<SharePoint:CssRegistration name="&#60;% $SPUrl:~sitecollection/Style Library/~language/Themable/Core Styles/editmode15.css %&#62;" After="&#60;% $SPUrl:~sitecollection/Style Library/~language/Themable/Core Styles/pagelayouts15.css %&#62;" runat="server">-->
+                <!--ME:</SharePoint:CssRegistration>-->
+            <!--ME:</Publishing:EditModePanel>-->
+            <!--CE: End Edit Mode Panel Snippet-->
+        <!--ME:</asp:ContentPlaceHolder>-->
+        <!--MS:<asp:ContentPlaceHolder id="PlaceHolderBodyAreaClass" runat="server">-->
+        <!--ME:</asp:ContentPlaceHolder>-->
+        <!--[if gte mso 9]><xml>
+<mso:CustomDocumentProperties>
+<mso:ContentPlaceHolderHashPlaceHolderPageTitleInTitleArea msdt:dt="string">1</mso:ContentPlaceHolderHashPlaceHolderPageTitleInTitleArea>
+<mso:ContentPlaceHolderHashPlaceHolderMain msdt:dt="string">1</mso:ContentPlaceHolderHashPlaceHolderMain>
+<mso:HtmlDesignStatusAndPreview msdt:dt="string">https://mdigital.sharepoint.com/sites/CA-Toolbox/_catalogs/masterpage/MerckResultsCenter.html, Conversion successful.</mso:HtmlDesignStatusAndPreview>
+<mso:ContentTypeId msdt:dt="string">0x01010007FF3E057FA8AB4AA42FCB67B453FFC100E214EEE741181F4E9F7ACC43278EE8110003D357F861E29844953D5CAA1D4D8A3B</mso:ContentTypeId>
+<mso:ContentPlaceHolderHashPlaceHolderAdditionalPageHead msdt:dt="string">1</mso:ContentPlaceHolderHashPlaceHolderAdditionalPageHead>
+<mso:ContentPlaceHolderHashPlaceHolderPageTitle msdt:dt="string">1</mso:ContentPlaceHolderHashPlaceHolderPageTitle>
+<mso:MasterHash msdt:dt="string">-170004874</mso:MasterHash>
+<mso:HtmlDesignFromMaster msdt:dt="string">https://mdigital.sharepoint.com/sites/CA-Toolbox/_catalogs/masterpage/BSM/MasterMerck1.html, https://mdigital.sharepoint.com/sites/CA-Toolbox/_catalogs/masterpage/BSM/MasterMerck1.html</mso:HtmlDesignFromMaster>
+<mso:PublishingAssociatedContentType msdt:dt="string">;#Welcome Page;#0x010100C568DB52D9D0A14D9B2FDCC96666E9F2007948130EC3DB064584E219954237AF390064DEA0F50FC8C147B0B6EA0636C4A7D4;#</mso:PublishingAssociatedContentType>
+<mso:HtmlDesignAssociated msdt:dt="string">1</mso:HtmlDesignAssociated>
+<mso:ContentPlaceHolderChangedPlaceHolderPageTitle msdt:dt="string">True</mso:ContentPlaceHolderChangedPlaceHolderPageTitle>
+<mso:ContentPlaceHolderChangedPlaceHolderAdditionalPageHead msdt:dt="string">True</mso:ContentPlaceHolderChangedPlaceHolderAdditionalPageHead>
+<mso:ContentPlaceHolderChangedPlaceHolderMain msdt:dt="string">True</mso:ContentPlaceHolderChangedPlaceHolderMain>
+<mso:ContentPlaceHolderHashPlaceHolderBodyAreaClass msdt:dt="string">268219038</mso:ContentPlaceHolderHashPlaceHolderBodyAreaClass>
+<mso:ContentPlaceHolderChangedPlaceHolderPageTitleInTitleArea msdt:dt="string">True</mso:ContentPlaceHolderChangedPlaceHolderPageTitleInTitleArea>
+<mso:HtmlDesignConversionSucceeded msdt:dt="string">True</mso:HtmlDesignConversionSucceeded>
+</mso:CustomDocumentProperties>
+</xml><![endif]-->
+        <title>Merck3 </title>
+    </head>
+    <body>
+        <!--MS:<asp:ContentPlaceHolder ID="PlaceHolderPageTitleInTitleArea" runat="server">-->
+            <!--CS: Start Page Field: Title Snippet-->
+            <!--SPM:<%@Register Tagprefix="PageFieldFieldValue" Namespace="Microsoft.SharePoint.WebControls" Assembly="Microsoft.SharePoint, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c"%>-->
+            <!--MS:<PageFieldFieldValue:FieldValue FieldName="fa564e0f-0c70-4ab9-b863-0177e6ddd247" runat="server">-->
+            <!--ME:</PageFieldFieldValue:FieldValue>-->
+            <!--CE: End Page Field: Title Snippet-->
+        <!--ME:</asp:ContentPlaceHolder>-->
+        <!--MS:<asp:ContentPlaceHolder ID="PlaceHolderMain" runat="server">-->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript">
+$(document).ready(
+function () {
+setInterval(center,1000);
+});
+
+function center()
+{
+   $(".ms-floatLeft").css("float","none");
+   $(".ms-floatLeft").css("text-align","center");
+}
+</script>
+            <div class="wrapper" id="wrapper">
+                <header id="header">
+                    <a class="btn btn-primary" role="button"> Search Results Center </a>
+               </header>
+               <br>
+               <div class="container" align="center">
+                <div class="SearchCenter">
+                <!--CS: Start Search Box Snippet--><!--SPM:<%@Register Tagprefix="SharePoint"  Namespace="Microsoft.SharePoint.WebControls" Assembly="Microsoft.SharePoint, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>--><!--SPM:<%@Register Tagprefix="WebPartPages"  Namespace="Microsoft.SharePoint.WebPartPages" Assembly="Microsoft.SharePoint, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>--><!--SPM:<%@Register Tagprefix="PWA"  Namespace="Microsoft.Office.Project.PWA.CommonControls" Assembly="Microsoft.Office.Project.Server.PWA, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>--><!--SPM:<%@Register Tagprefix="spsswc"  Namespace="Microsoft.Office.Server.Search.WebControls" Assembly="Microsoft.Office.Server.Search, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>--><!--SPM:<%@Register Tagprefix="iws"  Namespace="Microsoft.SharePoint.Spx.WebSite.Controls" Assembly="Microsoft.SharePoint.Spx.WebSite.ApplicationPages, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>--><!--SPM:<%@Register Tagprefix="Shared"  Namespace="Microsoft.SharePoint.Spx.WebsiteCore.Controls" Assembly="Microsoft.SharePoint.Spx.WebsiteCore, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>--><!--SPM:<%@Register Tagprefix="microsoftonline"  Namespace="Microsoft.Online.SharePoint.WebControls" Assembly="Microsoft.Online.SharePoint.PrivacyLinkControl, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>--><!--SPM:<%@Register Tagprefix="af25e94ec"  Namespace="Microsoft.Office.Server.Search.WebControls" Assembly="Microsoft.Office.Server.Search, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>--><!--MS:<spsswc:SearchBoxScriptWebPart runat="server" QueryGroupNamesJson="[&quot;Default&quot;]" ResultsPageAddress="https://mdigital.sharepoint.com/sites/CA-Toolbox/SitePages/MerckResultsCenter.aspx" QuerySuggestionMinimumPrefixLength="3" UpdatePageTitle="False" TryInplaceQuery="False" FurtherSharedSearchBoxSettingsCheckNeeded="False" RenderTemplateId="~sitecollection/_catalogs/masterpage/Display Templates/Search/Control_SearchBox.js" StatesJson="{}" ServerIncludeScriptsJson="null" Title="" FrameType="None" SuppressWebPartChrome="False" Description="" IsIncluded="True" ZoneID="ImportedPartZone" PartOrder="0" FrameState="Normal" AllowRemove="False" AllowZoneChange="False" AllowMinimize="False" AllowConnect="False" AllowEdit="False" AllowHide="False" IsVisible="True" DetailLink="" HelpLink="" HelpMode="Modeless" Dir="Default" PartImageSmall="" MissingAssembly="&lt;%$Resources:core,ImportErrorMessage;%&gt;" ImportErrorMessage="&lt;%$Resources:core,ImportErrorMessage;%&gt;" PartImageLarge="" IsIncludedFilter="" ExportControlledProperties="True" ConnectionID="00000000-0000-0000-0000-000000000000" ID="g_2dbe9b41_9302_4c26_a64e_fb146eaaf4c5" AllowClose="False" ChromeType="None" ExportMode="All" __MarkupType="vsattributemarkup" __WebPartId="{2dbe9b41-9302-4c26-a64e-fb146eaaf4c5}" WebPart="true" Height="" Width="">--><!--ME:</spsswc:SearchBoxScriptWebPart>--><!--PS: Start of READ-ONLY PREVIEW (do not modify)-->
+		<div class="ms-webpart-chrome ms-webpart-chrome-fullWidth">
+	<div class="ms-WPBody noindex " id="WebPartWPQ1" style="" allowdelete="false" onlyformepart="true" width="100%" haspers="true" webpartid="00000000-0000-0000-0000-000000000000" allowremove="false" allowminimize="false"><div style="display: none;"></div><div id="ctl00_ctl00_PlaceHolderMain_ComponentMain_ComponentPropertyGrids_g_2dbe9b41_9302_4c26_a64e_fb146eaaf4c5_csr" componentid="ctl00_ctl00_PlaceHolderMain_ComponentMain_ComponentPropertyGrids_g_2dbe9b41_9302_4c26_a64e_fb146eaaf4c5_csr">        <div class="ms-floatLeft" id="SearchBox" name="Control">            <div class="ms-srch-sbLarge ms-srch-sb-border" id="ctl00_ctl00_PlaceHolderMain_ComponentMain_ComponentPropertyGrids_g_2dbe9b41_9302_4c26_a64e_fb146eaaf4c5_csr_sboxdiv">                <input title="Search..." class="ms-textLarge ms-srch-sbLarge-fullWidth ms-srch-sb-prompt ms-helperText" id="ctl00_ctl00_PlaceHolderMain_ComponentMain_ComponentPropertyGrids_g_2dbe9b41_9302_4c26_a64e_fb146eaaf4c5_csr_sbox" accesskey="S" onkeydown="var ctl = $getClientControl(this);ctl.activateDefaultQuerySuggestionBehavior();" onkeypress="if (Srch.U.isEnterKey(String.fromCharCode(event.keyCode))) { $getClientControl(this).search(this.value);return Srch.U.cancelEvent(event); }" onfocus="var ctl = $getClientControl(this);ctl.hidePrompt();ctl.setBorder(true);" onblur="var ctl = $getClientControl(this);ctl.showPrompt();ctl.setBorder(false);" type="text" maxlength="2048" value="" autocorrect="off" autocomplete="off"> 				<a title="Search" class="ms-srch-sb-searchLink" id="ctl00_ctl00_PlaceHolderMain_ComponentMain_ComponentPropertyGrids_g_2dbe9b41_9302_4c26_a64e_fb146eaaf4c5_csr_SearchLink" onclick="$getClientControl(this).search($get('ctl00_ctl00_PlaceHolderMain_ComponentMain_ComponentPropertyGrids_g_2dbe9b41_9302_4c26_a64e_fb146eaaf4c5_csr_sbox').value);" href="javascript: {}">					<img class="ms-srch-sbLarge-searchImg" id="searchImg" alt="Search" src="/_layouts/15/images/searchresultui.png?rev=44#ThemeKey=">                </a>                <div class="ms-qSuggest-container ms-shadow" id="AutoCompContainer">                    <div id="ctl00_ctl00_PlaceHolderMain_ComponentMain_ComponentPropertyGrids_g_2dbe9b41_9302_4c26_a64e_fb146eaaf4c5_csr_AutoCompList"></div>                </div>	</div>        </div>		<div id="SearchOptions">		</div>    </div><noscript>&lt;div id="ctl00_ctl00_PlaceHolderMain_ComponentMain_ComponentPropertyGrids_g_2dbe9b41_9302_4c26_a64e_fb146eaaf4c5_noscript"&gt;It looks like your browser does not have JavaScript enabled. Please turn on JavaScript and try again.&lt;/div&gt;</noscript><div id="ctl00_ctl00_PlaceHolderMain_ComponentMain_ComponentPropertyGrids_g_2dbe9b41_9302_4c26_a64e_fb146eaaf4c5">
+
+	</div><div class="ms-clear"></div></div>
+</div><!--PE: End of READ-ONLY PREVIEW--><!--CE: End Search Box Snippet-->
+                </div>
+                <div class="Results">
+                <!--CS: Start Search Results Snippet--><!--SPM:<%@Register Tagprefix="SharePoint"  Namespace="Microsoft.SharePoint.WebControls" Assembly="Microsoft.SharePoint, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>--><!--SPM:<%@Register Tagprefix="WebPartPages"  Namespace="Microsoft.SharePoint.WebPartPages" Assembly="Microsoft.SharePoint, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>--><!--SPM:<%@Register Tagprefix="PWA"  Namespace="Microsoft.Office.Project.PWA.CommonControls" Assembly="Microsoft.Office.Project.Server.PWA, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>--><!--SPM:<%@Register Tagprefix="spsswc"  Namespace="Microsoft.Office.Server.Search.WebControls" Assembly="Microsoft.Office.Server.Search, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>--><!--SPM:<%@Register Tagprefix="iws"  Namespace="Microsoft.SharePoint.Spx.WebSite.Controls" Assembly="Microsoft.SharePoint.Spx.WebSite.ApplicationPages, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>--><!--SPM:<%@Register Tagprefix="Shared"  Namespace="Microsoft.SharePoint.Spx.WebsiteCore.Controls" Assembly="Microsoft.SharePoint.Spx.WebsiteCore, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>--><!--SPM:<%@Register Tagprefix="microsoftonline"  Namespace="Microsoft.Online.SharePoint.WebControls" Assembly="Microsoft.Online.SharePoint.PrivacyLinkControl, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>--><!--SPM:<%@Register Tagprefix="af25e94ec"  Namespace="Microsoft.Office.Server.Search.WebControls" Assembly="Microsoft.Office.Server.Search, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c" %>--><!--MS:<spsswc:ResultScriptWebPart runat="server" DataProviderJSON="{&quot;QueryGroupName&quot;:&quot;Default&quot;,&quot;QueryPropertiesTemplateUrl&quot;:&quot;sitesearch://webroot&quot;,&quot;IgnoreQueryPropertiesTemplateUrl&quot;:false,&quot;SourceID&quot;:null,&quot;SourceName&quot;:null,&quot;SourceLevel&quot;:null,&quot;CollapseSpecification&quot;:&quot;&quot;,&quot;QueryTemplate&quot;:&quot;{searchboxquery}&quot;,&quot;FallbackSort&quot;:null,&quot;FallbackSortJson&quot;:&quot;null&quot;,&quot;RankRules&quot;:null,&quot;RankRulesJson&quot;:&quot;null&quot;,&quot;AsynchronousResultRetrieval&quot;:false,&quot;SendContentBeforeQuery&quot;:true,&quot;BatchClientQuery&quot;:true,&quot;FallbackLanguage&quot;:-1,&quot;FallbackRankingModelID&quot;:&quot;&quot;,&quot;EnableStemming&quot;:true,&quot;EnablePhonetic&quot;:false,&quot;EnableNicknames&quot;:false,&quot;EnableInterleaving&quot;:true,&quot;EnableQueryRules&quot;:true,&quot;EnableOrderingHitHighlightedProperty&quot;:false,&quot;HitHighlightedMultivaluePropertyLimit&quot;:-1,&quot;IgnoreContextualScope&quot;:false,&quot;ScopeResultsToCurrentSite&quot;:false,&quot;TrimDuplicates&quot;:true,&quot;Properties&quot;:{&quot;CrossGeoQuery&quot;:&quot;false&quot;,&quot;ClientFunction&quot;:&quot;ResultScriptWebPart&quot;,&quot;ClientFunctionDetails&quot;:&quot;31d15c64-4799-4db1-bd63-6128993a07fd&quot;,&quot;ContentSetting&quot;:0,&quot;ListId&quot;:&quot;00000000-0000-0000-0000-000000000000&quot;},&quot;PropertiesJson&quot;:&quot;{\&quot;CrossGeoQuery\&quot;:\&quot;false\&quot;,\&quot;ClientFunction\&quot;:\&quot;ResultScriptWebPart\&quot;,\&quot;ClientFunctionDetails\&quot;:\&quot;31d15c64-4799-4db1-bd63-6128993a07fd\&quot;,\&quot;ContentSetting\&quot;:0,\&quot;ListId\&quot;:\&quot;00000000-0000-0000-0000-000000000000\&quot;}&quot;,&quot;ClientType&quot;:&quot;SearchWebPart&quot;,&quot;ClientFunction&quot;:&quot;&quot;,&quot;ClientFunctionDetails&quot;:&quot;&quot;,&quot;UpdateAjaxNavigate&quot;:true,&quot;SummaryLength&quot;:180,&quot;DesiredSnippetLength&quot;:90,&quot;PersonalizedQuery&quot;:false,&quot;FallbackRefinementFilters&quot;:null,&quot;IgnoreStaleServerQuery&quot;:false,&quot;RenderTemplateId&quot;:&quot;DefaultDataProvider&quot;,&quot;AlternateErrorMessage&quot;:null,&quot;Title&quot;:&quot;&quot;}" ItemTemplateId="" ItemBodyTemplateId="~sitecollection/_catalogs/masterpage/Display Templates/Search/Item_CommonItem_Body.js" ResultTypeId="" ResultsPerPage="15" SelectedPropertiesJson="null" HitHighlightedPropertiesJson="[&quot;Title&quot;,&quot;Path&quot;,&quot;Author&quot;,&quot;SectionNames&quot;,&quot;SiteDescription&quot;]" AvailableSortsJson="[{&quot;name&quot;:&quot;Relevance&quot;,&quot;sorts&quot;:[]},{&quot;name&quot;:&quot;Date(Newest)&quot;,&quot;sorts&quot;:[{&quot;p&quot;:&quot;Write&quot;,&quot;d&quot;:1}]},{&quot;name&quot;:&quot;Date(Oldest)&quot;,&quot;sorts&quot;:[{&quot;p&quot;:&quot;Write&quot;,&quot;d&quot;:0}]},{&quot;name&quot;:&quot;Lifetime Views&quot;,&quot;sorts&quot;:[{&quot;p&quot;:&quot;ViewsLifeTime&quot;,&quot;d&quot;:1}]},{&quot;name&quot;:&quot;Recent Views&quot;,&quot;sorts&quot;:[{&quot;p&quot;:&quot;ViewsRecent&quot;,&quot;d&quot;:1}]}]" SearchCenterXGeoLocations="" XGeoTenantsInfo="" ContentSetting="0" IsXGeo3SForwardingFlighted="True" ShowLanguageOptions="False" ShowPreferencesLink="False" PreloadedItemTemplateIdsJson="[&quot;~sitecollection/_catalogs/masterpage/Display Templates/Search/Group_Default.js&quot;,&quot;~sitecollection/_catalogs/masterpage/Display Templates/Search/Item_Default.js&quot;,&quot;~sitecollection/_catalogs/masterpage/Display Templates/Search/Item_Site.js&quot;,&quot;~sitecollection/_catalogs/masterpage/Display Templates/Search/Item_Word.js&quot;,&quot;~sitecollection/_catalogs/masterpage/Display Templates/Search/Item_PowerPoint.js&quot;,&quot;~sitecollection/_catalogs/masterpage/Display Templates/Search/Item_Person_CompactHorizontal.js&quot;,&quot;~sitecollection/_catalogs/masterpage/Display Templates/Search/Item_BestBet.js&quot;,&quot;~sitecollection/_catalogs/masterpage/Display Templates/Search/Item_WebPage.js&quot;]" ShowAlertMe="False" QueryGroupName="Default" RenderTemplateId="~sitecollection/_catalogs/masterpage/Display Templates/Search/Control_SearchResults.js" StatesJson="{}" ServerIncludeScriptsJson="null" Title="" FrameType="None" SuppressWebPartChrome="False" Description="" IsIncluded="True" ZoneID="ImportedPartZone" PartOrder="0" FrameState="Normal" AllowRemove="True" AllowZoneChange="True" AllowMinimize="True" AllowConnect="True" AllowEdit="True" AllowHide="True" IsVisible="True" DetailLink="" HelpLink="" HelpMode="Modeless" Dir="Default" PartImageSmall="" MissingAssembly="&lt;%$Resources:core,ImportErrorMessage;%&gt;" ImportErrorMessage="&lt;%$Resources:core,ImportErrorMessage;%&gt;" PartImageLarge="" IsIncludedFilter="" ExportControlledProperties="True" ConnectionID="00000000-0000-0000-0000-000000000000" ID="g_adda3e1f_4690_487e_b975_ab85807b84a1" ChromeType="None" ExportMode="All" __MarkupType="vsattributemarkup" __WebPartId="{adda3e1f-4690-487e-b975-ab85807b84a1}" WebPart="true" Height="" Width="">--><!--ME:</spsswc:ResultScriptWebPart>--><!--PS: Start of READ-ONLY PREVIEW (do not modify)-->
+		<div class="ms-webpart-chrome ms-webpart-chrome-fullWidth ">
+	<div class="ms-WPBody noindex " id="WebPartWPQ1" style="" allowdelete="false" onlyformepart="true" width="100%" haspers="true" webpartid="00000000-0000-0000-0000-000000000000"><div id="ctl00_ctl00_PlaceHolderMain_ComponentMain_ComponentPropertyGrids_g_adda3e1f_4690_487e_b975_ab85807b84a1_csr" componentid="ctl00_ctl00_PlaceHolderMain_ComponentMain_ComponentPropertyGrids_g_adda3e1f_4690_487e_b975_ab85807b84a1_csr"></div><noscript>&lt;div id="ctl00_ctl00_PlaceHolderMain_ComponentMain_ComponentPropertyGrids_g_adda3e1f_4690_487e_b975_ab85807b84a1_noscript"&gt;It looks like your browser does not have JavaScript enabled. Please turn on JavaScript and try again.&lt;/div&gt;</noscript><div id="ctl00_ctl00_PlaceHolderMain_ComponentMain_ComponentPropertyGrids_g_adda3e1f_4690_487e_b975_ab85807b84a1">
+		<div class="display-none">
+			<div class="ms-webpart-chrome-title" id="WebPartWPQ2_ChromeTitle">
+				<span title="" class="js-webpart-titleCell" id="WebPartTitleWPQ2"><h2 class="ms-webpart-titleText" style="text-align:justify;"><nobr><span></span><span id="WebPartCaptionWPQ2"></span></nobr></h2></span>
+			</div><div class="ms-WPBody ms-WPBorder noindex ms-wpContentDivSpace " id="WebPartWPQ2" style="" allowdelete="false" onlyformepart="true" width="100%" haspers="true" webpartid="00000000-0000-0000-0000-000000000000"><div id="ctl00_ctl00_PlaceHolderMain_ComponentMain_ComponentPropertyGrids_g_adda3e1f_4690_487e_b975_ab85807b84a1_ctl00_csr" componentid="ctl00_ctl00_PlaceHolderMain_ComponentMain_ComponentPropertyGrids_g_adda3e1f_4690_487e_b975_ab85807b84a1_ctl00_csr"></div><noscript>&lt;div id="ctl00_ctl00_PlaceHolderMain_ComponentMain_ComponentPropertyGrids_g_adda3e1f_4690_487e_b975_ab85807b84a1_ctl00_noscript"&gt;It looks like your browser does not have JavaScript enabled. Please turn on JavaScript and try again.&lt;/div&gt;</noscript><div id="ctl00_ctl00_PlaceHolderMain_ComponentMain_ComponentPropertyGrids_g_adda3e1f_4690_487e_b975_ab85807b84a1_ctl00">
+				</div><div class="ms-clear"></div></div>
+		</div>
+	</div><div class="ms-clear"></div></div>
+</div><!--PE: End of READ-ONLY PREVIEW--><!--CE: End Search Results Snippet-->
+                </div>
+            </div>
+            </div>
+        <!--ME:</asp:ContentPlaceHolder>-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">//<![CDATA[
+                //]]>
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous">//<![CDATA[
+                //]]>
+        </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous">//<![CDATA[
+                //]]>
+        </script>
+    </body>
+</html>
