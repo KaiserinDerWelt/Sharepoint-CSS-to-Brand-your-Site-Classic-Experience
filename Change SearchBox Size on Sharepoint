@@ -1,0 +1,19 @@
+/*S-H-A-R-E-P-O-I-N-T COULD BE H-E-L-L*/
+
+/*Save pain hours with this snippet*/
+/* Just change the ID # of your search bar, it is the one who HAS NOT the DIV word at the END!! */
+/* Do not copy paste the snippet, first of all generate your custom searchbar on  the sharepoint 2010/2013 Gallery. identify the ID of your web part (it has to start with
+#CT100) and then set the properties that you want to set*/
+
+#ctl00_PlaceHolderMain_g_b5d05eaf_532a_4024_b639_d27720c04312_csr_sbox{
+width: 212px;
+height:36px;
+}
+
+
+
+#ctl00_PlaceHolderMain_g_12d930ba_06e8_47f2_92f2_8d9a8af97426_csr_sbox{
+width: 212px;
+height:36px;
+}
+
