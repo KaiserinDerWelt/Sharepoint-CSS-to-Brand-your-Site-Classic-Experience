@@ -1,0 +1,16 @@
+// It deletes the top margin with sharepoint branding blue bar, user picture and ribbon button.
+//have fun
+
+<script language="javascript">
+
+_spBodyOnLoadFunctionNames.push("HideBrandingsuite");
+
+function HideBrandingsuite()
+
+{
+
+document.getElementById('pageTitle').style.visibility = 'hidden';
+
+} 
+
+</script>
