@@ -1,0 +1,10 @@
+
+/*Do not lose your time looking with developer tools (F12) for  elements to style your sharepoint 2010 ,2013.*/
+
+/*Style search box border */
+
+.ms-srch-sb-border {
+border:0;
+border-radius:7px;
+border-color:#F5FFFA;
+}
