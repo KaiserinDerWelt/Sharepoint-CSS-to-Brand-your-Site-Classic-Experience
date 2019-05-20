@@ -1,0 +1,31 @@
+/*Insert this code in a Sharepoint Designer Masterpage (HTML Version) to create a page where in the header you develop a taylor front end then you insert a page with modern view to make an hybrid and use all the characterisitics of the modern view incorporated in sharepoint 2010-2013-2016 frame to skip using the SPFx framework-->
+<head>
+  <!-- ASPX Controls -->
+<!--Style links UNDER:-->
+<!--MS:<asp:ContentPlaceHolder id="PlaceHolderAdditionalPageHead" runat="server">-->
+<!--Bootstrap-->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous" />
+<!--Link to sharepoint masterpage-->
+<link href="#" rel="stylesheet" type="text/css" ms-design-css-conversion="no" />
+<!--Link to  Embebbed Fonts-->
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" />
+<!--End of custom page Aspx especifications mso:CustomDocumentProperties -->
+<!--Tittle-->
+<title>Company Title</title>
+</head>
+<body>
+  <!-- Content Place holder <<  <!--MS:<asp:ContentPlaceHolder ID="PlaceHolderMain" runat="server">>>-->
+  <div class="wrapper" class="wrapper"><!--Bootstrap wrapper to make it responsive-->
+    <header id="header"><!--Tittle button for the department pager-->
+      <a class)="btn btn-primary"  role="button"> Add here department name </a>
+      </header>
+      <div class="Library-Section">
+      <!--Insert aPage viewer Snippet you can make it from Sharepoint/Site Settings/Look and feel/Design Tools/Insert page Snippet-->
+      <!--Snippet ends-->
+        </div>
+        <!--End of content placeholder-->
+        <script>
+<!--The scripts should be already here, they are coming from the master page-->
+<!--Add here any other script you need-->
+          </script>
+  </body>
