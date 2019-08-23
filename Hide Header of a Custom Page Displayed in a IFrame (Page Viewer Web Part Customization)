@@ -1,0 +1,10 @@
+/*This is a hack to integrate SharePoint 2010-2013 with SharePoint 2016-2019 features in a same page by using SharePoint Desigener and some emergent setting*/
+/*This solution is only useful with browsers that support the Iframe Tag, for Windows Explorer only V.7+ */
+/*Code Starts here: */
+
+/*1) Create an  Iframe */
+<Iframe src="URL HERE">
+</Iframe>
+
+/*Customize your Iframe tag: */
+ <iframe id="LibraryView"  width="1400" height="600" frameborder="0" src="URL"></iframe>
