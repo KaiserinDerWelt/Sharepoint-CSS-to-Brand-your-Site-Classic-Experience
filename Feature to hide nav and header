@@ -1,0 +1,7 @@
+*/Add this extension to your URL */
+
+?isdlg=1
+
+/*It gonna hide the nav and header on sharepoint 2010,2013*/
+
+/*Watch OUT!! This feature is case sensitive, so do not change the characters for UPPERCASE*/
