@@ -1,0 +1,17 @@
+/* Here we go again, this is Kaiserin Der Welt*/
+
+/*I created a way to incorporate the beauty of the modern experience in a SharePoint 2013 scenario, it means you can brand your developmen
+in sharepoint designer and add as a feature the visual characteristics of the Modern Experience (2016/2019)*/
+
+/*YOUR OPTIONS: */
+
+/*It is easier than you think*/
+
+/* 1) Work using iframes by the sharepoint snippet generator BUT you will need an advanced knowledge of javascript to hide the components of the suite 
+you do not wanna see!*/
+
+/*¨2) Add an iframe in your html file and ciustomize by CSS files or/ and javascript */
+
+ <iframe id="LibraryView"  width="1270" height="600" frameborder="0" src="https://yourtenant.sharepoint.com/sites/YourSite/YourPage/Forms/AllItems.aspx"></iframe>
+
+/*Please take on count tha you should get the link from your sharepoint enviroment to have an accurate pointing to the right address*/
