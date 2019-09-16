@@ -1,0 +1,7 @@
+<!--1) Upload your js file in the root folder of your master page-->
+
+<!--You can do it too in the style library-->
+
+<!--2)Use the SharePoint Script tag to point the js code to your master page-->
+
+<SharePoint:Scriptlink ID="Scriptlink9" runat="server" name="~SiteCollection/Style Library/YourFolderName/YourScriptName.js" language="javscript" />
