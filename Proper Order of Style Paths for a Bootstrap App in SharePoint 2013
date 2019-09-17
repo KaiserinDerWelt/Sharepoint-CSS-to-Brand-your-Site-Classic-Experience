@@ -1,0 +1,46 @@
+<!--This is copy of a html page on SharePoint Designer-->
+<!-To build a succesful Bootstrap (responsive) application well rendered you need to place the Bootstrap paths and css paths perfectly-->
+<!--Check it out and save a LOT of time-->
+<!--Remember to delete the spaces between line codes to make your app faster-->
+
+<!--HTML CODE STARTS HERE-->
+!DOCTYPE html[]>
+<html xmlns:mso="urn:schemas-microsoft-com:office:office" xmlns:msdt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+    <head>
+        <!--MS:<asp:ContentPlaceHolder id="PlaceHolderPageTitle" runat="server">-->
+            <!--SPM:<SharePoint:ProjectProperty Property="Title" runat="server"/>-->
+            <!--CS: Iniciar fragmento de código Campo de página: Título-->
+            <!--SPM:<%@Register Tagprefix="PageFieldFieldValue" Namespace="Microsoft.SharePoint.WebControls" Assembly="Microsoft.SharePoint, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c"%>-->
+            <!--MS:<PageFieldFieldValue:FieldValue FieldName="fa564e0f-0c70-4ab9-b863-0177e6ddd247" runat="server">-->
+            <!--ME:</PageFieldFieldValue:FieldValue>-->
+            <!--CE: Fin del fragmento de código Campo de página: Título-->
+        <!--ME:</asp:ContentPlaceHolder>-->
+        <!--MS:<asp:ContentPlaceHolder id="PlaceHolderAdditionalPageHead" runat="server">-->
+            <!--CS: Iniciar fragmento de código Panel del modo Edición-->
+            <!--SPM:<%@Register Tagprefix="SharePoint" Namespace="Microsoft.SharePoint.WebControls" Assembly="Microsoft.SharePoint, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c"%>-->
+            <!--SPM:<%@Register Tagprefix="Publishing" Namespace="Microsoft.SharePoint.Publishing.WebControls" Assembly="Microsoft.SharePoint.Publishing, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c"%>-->
+           
+           <!--BOOTSTRAP MUST BE HERE-->
+            <meta charset="utf-8"> <!--THIS MUST TO BE ADDED-->
+             <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!--THIS MUST TO BE ADDED-->
+             <!--LINK TO BS CDN-->
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+              <!--AJAX LINK-->
+              <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+              <!--BOOTSTRAP MIN-->
+            <!-- Include all compiled plugins (below), or include individual files as needed -->
+            <script src="js/bootstrap.min.js"></script>
+            
+            <!--LINK TO STYLE SHEET IN SHAREPOINT LIBRARY-->
+            
+            
+           <link href="LINK OF YOUR CSS FILE LOCATED IN SHAREPOINT" rel="stylesheet" type="text/css" ms-design-css-conversion="no" />
+            <!--FONT LINK (IF NECESSARY-->
+            
+            <!--MS:<Publishing:EditModePanel runat="server" id="editmodestyles">-->
+                <!--MS:<SharePoint:CssRegistration name="&#60;% $SPUrl:~sitecollection/Style Library/~language/Themable/Core Styles/editmode15.css %&#62;" After="&#60;% $SPUrl:~sitecollection/Style Library/~language/Themable/Core Styles/pagelayouts15.css %&#62;" runat="server">-->
+                <!--ME:</SharePoint:CssRegistration>-->
+            <!--ME:</Publishing:EditModePanel>-->
+            <!--CE: Fin del fragmento de código Panel del modo Edición-->
+        <!--ME:</asp:ContentPlaceHolder>-->
+        <!--MS:<asp:ContentPlaceHolder id="PlaceHolderBodyAreaClass" runat="server">-->
