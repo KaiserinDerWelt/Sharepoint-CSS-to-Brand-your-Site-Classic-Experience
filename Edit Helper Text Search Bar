@@ -1,0 +1,7 @@
+/*This code gonna help you to modify the characteristics of the text inside the Search Box on SharePoint 2013*/
+/*Add the properties according your needs*/
+
+.ms-helperText,
+input.ms-helperText {
+color: #0072c6;
+}
