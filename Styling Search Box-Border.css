@@ -1,10 +1,19 @@
+/*IMPORTANT: The Search Bar Branding is composed by two components that you have to "style" to finally get the result you need*/
 
 /*Do not lose your time looking with developer tools (F12) for  elements to style your sharepoint 2010 ,2013.*/
 
-/*Style search box border */
+/*Style search box border: Belongs to the input field including the search icon. It gonna modify what is inside of the #SearchBar container*/
 
 .ms-srch-sb-border {
 border:0;
 border-radius:7px;
 border-color:#F5FFFA;
+}
+
+/* The SearchBox ID ( #SearchBox) gonna modify the outside of the input*/
+#SearchBox{
+border-style:solid;
+border-radius:30px;
+border-color:#3b83bd !important;
+border-width: 2.5px !important;
 }
