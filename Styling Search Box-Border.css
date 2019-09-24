@@ -10,15 +10,14 @@ border-radius:7px;
 border-color:#F5FFFA;
 }
 
-/* The SearchBox ID ( #SearchBox) gonna modify the outside of the input*/
-#SearchBox{
-border-style:solid;
-border-radius:30px;
-border-color:#3b83bd !important;
-border-width: 2.5px !important;
+/* The .ms-srch-sb-borderFocused class(.ms-srch-sb-borderFocused) gonna modify the outside of the input*/
+.ms-srch-sb-borderFocused{
+border: 0px solid #f51010 !important;
+border-radius:30px !important;
 }
 
+
 /*Check the following link to see the components*/
-/* .ms-srch-sb-border : Blue #SearchBox : red */
+/* .ms-srch-sb-border : Blue .ms-srch-sb-borderFocused : red */
 
 https://github.com/KaiserinDerWelt/Sharepoint-CSS-to-Brand-your-Site-Classic-Experience/blob/master/SearchBarBranding.jpg
