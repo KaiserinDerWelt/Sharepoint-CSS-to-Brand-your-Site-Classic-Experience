@@ -1,0 +1,10 @@
+/* This gonna look so silly but in SharePoint there are CSS properties that does not work like in a regular text editor and html/css file*/
+/*To align a component right in the center of the container use the following code implementing CSS Flexbox properties*/
+/*Remember to use the !important property to OVER WRITTE the Core15.css file, it gonna save you a lot of time*/
+      
+      
+    -YourClass  {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    }
