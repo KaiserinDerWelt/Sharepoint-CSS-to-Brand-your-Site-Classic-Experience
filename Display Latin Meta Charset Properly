@@ -1,0 +1,9 @@
+<!--SharePoint Designer does not display latin meta charset characters by itself-->
+<!--Please add the following lines of code right after this instruction -->
+<!--SPM:<%@Register Tagprefix="Publishing" Namespace="Microsoft.SharePoint.Publishing.WebControls" Assembly="Microsoft.SharePoint.Publishing, Version=16.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c"%>-->
+<!--Add this-->
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+
+<!--That is it, go for a beer and enjoy your time doing something else, SharePoint hell-ven it was enough for today-->
