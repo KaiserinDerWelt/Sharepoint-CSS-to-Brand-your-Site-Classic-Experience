@@ -1,0 +1,273 @@
+<!-- Welcome to the SharePoint Hell-Ven -->
+
+<!--Follow the next steps to change the font of sharepoint System-->
+
+<!--Have ready one of this font files: SharePoint only use the following extensions : .eot, .svg, .ttf, .woff -->
+
+<!--0) Convert your file here and get the zip package you gonna need in the following steps: https://everythingfonts.com/font-face -->
+
+<!--1) Go to:   https://YOURTENANT.sharepoint.com/sites/YOURSITE/_catalogs/theme/15/yourfon  -->
+
+<!--2) Upload your font file for example: Bodoni.woff -->
+
+<!--3) Download one of the fontscheme001.spfont   -->
+
+<!--4) Open the file on your text editor-->
+
+<!--5) Read the code: . fontSlots designate where the font has to be applied on the SharePoint System for example :   <s:fontSlot name="title"> gonna change the font in the title area -->
+
+<!--6) What you have to do is to replace the paths to tell SharePoint where do you want your custom font in the SharePoint System-->
+
+<!--7) Replace the source of the font with the location of the custom font you uploaded it in step 2 -->
+
+<!--8) It most look like : /_catalogs/theme/15/yourfont -->
+
+<!--9) Repeat step 2 and 6  with the font files you got through the zip generator-->
+
+<!--10) Once you finish update your .spfont file and apply the style in the following path : SiteSettings/ Composed Looks / Select the new or edited Look you created -->
+<!-- D-O-N-E -->
+<!--- ///////////////////////////////////////LET´S LOOK AT THE CODE ///////////////////////////////////////////////////////////-->
+
+<?xml version="1.0" encoding="utf-8"?>
+<s:fontScheme name="Bodoni" previewSlot1="title" previewSlot2="body" xmlns:s="http://schemas.microsoft.com/sharepoint/">
+    <s:fontSlots>
+        <s:fontSlot name="title"> <!--EXAMPLE DOWN HERE -->
+            <s:latin typeface="Bodoni Book" eotsrc="/_layouts/15/fonts/Bodoni.eot" woffsrc="/_layouts/15/fonts/Bodoni.woff" ttfsrc="/_layouts/15/fonts/Bodoni.ttf" svgsrc="/_layouts/15/fonts/Bodoni.svg" largeimgsrc="/_layouts/15/fonts/BodoniBookLarge.png" smallimgsrc="/_layouts/15/fonts/BodoniBookSmall.png" />
+            <s:ea typeface="" />
+            <s:cs typeface="Segoe UI Light" />
+            <s:font script="Arab" typeface="Segoe UI Light" />
+            <s:font script="Deva" typeface="Nirmala UI" />
+            <s:font script="Grek" typeface="Segoe UI Light" />
+            <s:font script="Hang" typeface="Malgun Gothic" />
+            <s:font script="Hans" typeface="Microsoft YaHei UI" />
+            <s:font script="Hant" typeface="Microsoft JhengHei UI" />
+            <s:font script="Hebr" typeface="Tahoma" />
+            <s:font script="Hira" typeface="Meiryo UI" />
+            <s:font script="Thai" typeface="Tahoma" />
+            <s:font script="Armn" typeface="Segoe UI Light" />
+            <s:font script="Beng" typeface="Nirmala UI" />
+            <s:font script="Cher" typeface="Gadugi" />
+            <s:font script="Ethi" typeface="Ebrima" />
+            <s:font script="Geor" typeface="Segoe UI Light" />
+            <s:font script="Gujr" typeface="Nirmala UI" />
+            <s:font script="Guru" typeface="Nirmala UI" />
+            <s:font script="Knda" typeface="Nirmala UI" />
+            <s:font script="Khmr" typeface="Khmer UI" />
+            <s:font script="Laoo" typeface="Lao UI" />
+            <s:font script="Mlym" typeface="Nirmala UI" />
+            <s:font script="Mymr" typeface="Myanmar Text" />
+            <s:font script="Orya" typeface="Nirmala UI" />
+            <s:font script="Sinh" typeface="Nirmala UI" />
+            <s:font script="Syrc" typeface="Estrangelo Edessa" />
+            <s:font script="Taml" typeface="Nirmala UI" />
+            <s:font script="Telu" typeface="Nirmala UI" />
+            <s:font script="Thaa" typeface="MV Boli" />
+            <s:font script="Tibt" typeface="Microsoft Himalaya" />
+            <s:font script="Yiii" typeface="Microsoft Yi Baiti" />
+        </s:fontSlot>
+        <s:fontSlot name="navigation">
+            <s:latin typeface="Bodoni Book" eotsrc="/_layouts/15/fonts/BodoniBook.eot" woffsrc="/_layouts/15/fonts/BodoniBook.woff" ttfsrc="/_layouts/15/fonts/BodoniBook.ttf" svgsrc="/_layouts/15/fonts/BodoniBook.svg" largeimgsrc="/_layouts/15/fonts/BodoniBookLarge.png" smallimgsrc="/_layouts/15/fonts/BodoniBookSmall.png" />
+            <s:ea typeface="" />
+            <s:cs typeface="Segoe UI" />
+            <s:font script="Arab" typeface="Segoe UI" />
+            <s:font script="Deva" typeface="Nirmala UI" />
+            <s:font script="Grek" typeface="Segoe UI" />
+            <s:font script="Hang" typeface="Malgun Gothic" />
+            <s:font script="Hans" typeface="Microsoft YaHei UI" />
+            <s:font script="Hant" typeface="Microsoft JhengHei UI" />
+            <s:font script="Hebr" typeface="Tahoma" />
+            <s:font script="Hira" typeface="Meiryo UI" />
+            <s:font script="Thai" typeface="Tahoma" />
+            <s:font script="Armn" typeface="Segoe UI" />
+            <s:font script="Beng" typeface="Nirmala UI" />
+            <s:font script="Cher" typeface="Gadugi" />
+            <s:font script="Ethi" typeface="Ebrima" />
+            <s:font script="Geor" typeface="Segoe UI" />
+            <s:font script="Gujr" typeface="Nirmala UI" />
+            <s:font script="Guru" typeface="Nirmala UI" />
+            <s:font script="Knda" typeface="Nirmala UI" />
+            <s:font script="Khmr" typeface="Khmer UI" />
+            <s:font script="Laoo" typeface="Lao UI" />
+            <s:font script="Mlym" typeface="Nirmala UI" />
+            <s:font script="Mymr" typeface="Myanmar Text" />
+            <s:font script="Orya" typeface="Nirmala UI" />
+            <s:font script="Sinh" typeface="Nirmala UI" />
+            <s:font script="Syrc" typeface="Estrangelo Edessa" />
+            <s:font script="Taml" typeface="Nirmala UI" />
+            <s:font script="Telu" typeface="Nirmala UI" />
+            <s:font script="Thaa" typeface="MV Boli" />
+            <s:font script="Tibt" typeface="Microsoft Himalaya" />
+            <s:font script="Yiii" typeface="Microsoft Yi Baiti" />
+        </s:fontSlot>
+        <s:fontSlot name="small-heading">
+            <s:latin typeface="Bodoni Book" eotsrc="/_layouts/15/fonts/BodoniBook.eot" woffsrc="/_layouts/15/fonts/BodoniBook.woff" ttfsrc="/_layouts/15/fonts/BodoniBook.ttf" svgsrc="/_layouts/15/fonts/BodoniBook.svg" largeimgsrc="/_layouts/15/fonts/BodoniBookLarge.png" smallimgsrc="/_layouts/15/fonts/BodoniBookSmall.png" />
+            <s:ea typeface="" />
+            <s:cs typeface="Segoe UI" />
+            <s:font script="Arab" typeface="Segoe UI" />
+            <s:font script="Deva" typeface="Nirmala UI" />
+            <s:font script="Grek" typeface="Segoe UI" />
+            <s:font script="Hang" typeface="Malgun Gothic" />
+            <s:font script="Hans" typeface="Microsoft YaHei UI" />
+            <s:font script="Hant" typeface="Microsoft JhengHei UI" />
+            <s:font script="Hebr" typeface="Tahoma" />
+            <s:font script="Hira" typeface="Meiryo UI" />
+            <s:font script="Thai" typeface="Tahoma" />
+            <s:font script="Armn" typeface="Segoe UI" />
+            <s:font script="Beng" typeface="Nirmala UI" />
+            <s:font script="Cher" typeface="Gadugi" />
+            <s:font script="Ethi" typeface="Ebrima" />
+            <s:font script="Geor" typeface="Segoe UI" />
+            <s:font script="Gujr" typeface="Nirmala UI" />
+            <s:font script="Guru" typeface="Nirmala UI" />
+            <s:font script="Knda" typeface="Nirmala UI" />
+            <s:font script="Khmr" typeface="Khmer UI" />
+            <s:font script="Laoo" typeface="Lao UI" />
+            <s:font script="Mlym" typeface="Nirmala UI" />
+            <s:font script="Mymr" typeface="Myanmar Text" />
+            <s:font script="Orya" typeface="Nirmala UI" />
+            <s:font script="Sinh" typeface="Nirmala UI" />
+            <s:font script="Syrc" typeface="Estrangelo Edessa" />
+            <s:font script="Taml" typeface="Nirmala UI" />
+            <s:font script="Telu" typeface="Nirmala UI" />
+            <s:font script="Thaa" typeface="MV Boli" />
+            <s:font script="Tibt" typeface="Microsoft Himalaya" />
+            <s:font script="Yiii" typeface="Microsoft Yi Baiti" />
+        </s:fontSlot>
+        <s:fontSlot name="heading">
+            <s:latin typeface="Bodoni Book" eotsrc="/_layouts/15/fonts/BodoniBook.eot" woffsrc="/_layouts/15/fonts/BodoniBook.woff" ttfsrc="/_layouts/15/fonts/BodoniBook.ttf" svgsrc="/_layouts/15/fonts/BodoniBook.svg" largeimgsrc="/_layouts/15/fonts/BodoniBookLarge.png" smallimgsrc="/_layouts/15/fonts/BodoniBookSmall.png" />
+            <s:ea typeface="" />
+            <s:cs typeface="Segoe UI Semilight" />
+            <s:font script="Arab" typeface="Segoe UI Semilight" />
+            <s:font script="Deva" typeface="Nirmala UI" />
+            <s:font script="Grek" typeface="Segoe UI Semilight" />
+            <s:font script="Hang" typeface="Malgun Gothic" />
+            <s:font script="Hans" typeface="Microsoft YaHei UI" />
+            <s:font script="Hant" typeface="Microsoft JhengHei UI" />
+            <s:font script="Hebr" typeface="Tahoma" />
+            <s:font script="Hira" typeface="Meiryo UI" />
+            <s:font script="Thai" typeface="Tahoma" />
+            <s:font script="Armn" typeface="Segoe UI Semilight" />
+            <s:font script="Beng" typeface="Nirmala UI" />
+            <s:font script="Cher" typeface="Gadugi" />
+            <s:font script="Ethi" typeface="Ebrima" />
+            <s:font script="Geor" typeface="Segoe UI Semilight" />
+            <s:font script="Gujr" typeface="Nirmala UI" />
+            <s:font script="Guru" typeface="Nirmala UI" />
+            <s:font script="Knda" typeface="Nirmala UI" />
+            <s:font script="Khmr" typeface="Khmer UI" />
+            <s:font script="Laoo" typeface="Lao UI" />
+            <s:font script="Mlym" typeface="Nirmala UI" />
+            <s:font script="Mymr" typeface="Myanmar Text" />
+            <s:font script="Orya" typeface="Nirmala UI" />
+            <s:font script="Sinh" typeface="Nirmala UI" />
+            <s:font script="Syrc" typeface="Estrangelo Edessa" />
+            <s:font script="Taml" typeface="Nirmala UI" />
+            <s:font script="Telu" typeface="Nirmala UI" />
+            <s:font script="Thaa" typeface="MV Boli" />
+            <s:font script="Tibt" typeface="Microsoft Himalaya" />
+            <s:font script="Yiii" typeface="Microsoft Yi Baiti" />
+        </s:fontSlot>
+        <s:fontSlot name="large-heading">
+            <s:latin typeface="Bodoni Book" eotsrc="/_layouts/15/fonts/BodoniBook.eot" woffsrc="/_layouts/15/fonts/BodoniBook.woff" ttfsrc="/_layouts/15/fonts/BodoniBook.ttf" svgsrc="/_layouts/15/fonts/BodoniBook.svg" largeimgsrc="/_layouts/15/fonts/BodoniBookLarge.png" smallimgsrc="/_layouts/15/fonts/BodoniBookSmall.png" />
+            <s:ea typeface="" />
+            <s:cs typeface="Segoe UI Light" />
+            <s:font script="Arab" typeface="Segoe UI Light" />
+            <s:font script="Deva" typeface="Nirmala UI" />
+            <s:font script="Grek" typeface="Segoe UI Light" />
+            <s:font script="Hang" typeface="Malgun Gothic" />
+            <s:font script="Hans" typeface="Microsoft YaHei UI" />
+            <s:font script="Hant" typeface="Microsoft JhengHei UI" />
+            <s:font script="Hebr" typeface="Tahoma" />
+            <s:font script="Hira" typeface="Meiryo UI" />
+            <s:font script="Thai" typeface="Tahoma" />
+            <s:font script="Armn" typeface="Segoe UI Light" />
+            <s:font script="Beng" typeface="Nirmala UI" />
+            <s:font script="Cher" typeface="Gadugi" />
+            <s:font script="Ethi" typeface="Ebrima" />
+            <s:font script="Geor" typeface="Segoe UI Light" />
+            <s:font script="Gujr" typeface="Nirmala UI" />
+            <s:font script="Guru" typeface="Nirmala UI" />
+            <s:font script="Knda" typeface="Nirmala UI" />
+            <s:font script="Khmr" typeface="Khmer UI" />
+            <s:font script="Laoo" typeface="Lao UI" />
+            <s:font script="Mlym" typeface="Nirmala UI" />
+            <s:font script="Mymr" typeface="Myanmar Text" />
+            <s:font script="Orya" typeface="Nirmala UI" />
+            <s:font script="Sinh" typeface="Nirmala UI" />
+            <s:font script="Syrc" typeface="Estrangelo Edessa" />
+            <s:font script="Taml" typeface="Nirmala UI" />
+            <s:font script="Telu" typeface="Nirmala UI" />
+            <s:font script="Thaa" typeface="MV Boli" />
+            <s:font script="Tibt" typeface="Microsoft Himalaya" />
+            <s:font script="Yiii" typeface="Microsoft Yi Baiti" />
+        </s:fontSlot>
+        <s:fontSlot name="body">
+            <s:latin typeface="Segoe UI" />
+            <s:ea typeface="" />
+            <s:cs typeface="Segoe UI" />
+            <s:font script="Arab" typeface="Segoe UI" />
+            <s:font script="Deva" typeface="Nirmala UI" />
+            <s:font script="Grek" typeface="Segoe UI" />
+            <s:font script="Hang" typeface="Malgun Gothic" />
+            <s:font script="Hans" typeface="Microsoft YaHei UI" />
+            <s:font script="Hant" typeface="Microsoft JhengHei UI" />
+            <s:font script="Hebr" typeface="Tahoma" />
+            <s:font script="Hira" typeface="Meiryo UI" />
+            <s:font script="Thai" typeface="Tahoma" />
+            <s:font script="Armn" typeface="Segoe UI" />
+            <s:font script="Beng" typeface="Nirmala UI" />
+            <s:font script="Cher" typeface="Gadugi" />
+            <s:font script="Ethi" typeface="Ebrima" />
+            <s:font script="Geor" typeface="Segoe UI" />
+            <s:font script="Gujr" typeface="Nirmala UI" />
+            <s:font script="Guru" typeface="Nirmala UI" />
+            <s:font script="Knda" typeface="Nirmala UI" />
+            <s:font script="Khmr" typeface="Khmer UI" />
+            <s:font script="Laoo" typeface="Lao UI" />
+            <s:font script="Mlym" typeface="Nirmala UI" />
+            <s:font script="Mymr" typeface="Myanmar Text" />
+            <s:font script="Orya" typeface="Nirmala UI" />
+            <s:font script="Sinh" typeface="Nirmala UI" />
+            <s:font script="Syrc" typeface="Estrangelo Edessa" />
+            <s:font script="Taml" typeface="Nirmala UI" />
+            <s:font script="Telu" typeface="Nirmala UI" />
+            <s:font script="Thaa" typeface="MV Boli" />
+            <s:font script="Tibt" typeface="Microsoft Himalaya" />
+            <s:font script="Yiii" typeface="Microsoft Yi Baiti" />
+        </s:fontSlot>
+        <s:fontSlot name="large-body">
+            <s:latin typeface="Segoe UI Semilight" />
+            <s:ea typeface="" />
+            <s:cs typeface="Segoe UI Semilight" />
+            <s:font script="Arab" typeface="Segoe UI Semilight" />
+            <s:font script="Deva" typeface="Nirmala UI" />
+            <s:font script="Grek" typeface="Segoe UI Semilight" />
+            <s:font script="Hang" typeface="Malgun Gothic" />
+            <s:font script="Hans" typeface="Microsoft YaHei UI" />
+            <s:font script="Hant" typeface="Microsoft JhengHei UI" />
+            <s:font script="Hebr" typeface="Tahoma" />
+            <s:font script="Hira" typeface="Meiryo UI" />
+            <s:font script="Thai" typeface="Tahoma" />
+            <s:font script="Armn" typeface="Segoe UI Semilight" />
+            <s:font script="Beng" typeface="Nirmala UI" />
+            <s:font script="Cher" typeface="Gadugi" />
+            <s:font script="Ethi" typeface="Ebrima" />
+            <s:font script="Geor" typeface="Segoe UI Semilight" />
+            <s:font script="Gujr" typeface="Nirmala UI" />
+            <s:font script="Guru" typeface="Nirmala UI" />
+            <s:font script="Knda" typeface="Nirmala UI" />
+            <s:font script="Khmr" typeface="Khmer UI" />
+            <s:font script="Laoo" typeface="Lao UI" />
+            <s:font script="Mlym" typeface="Nirmala UI" />
+            <s:font script="Mymr" typeface="Myanmar Text" />
+            <s:font script="Orya" typeface="Nirmala UI" />
+            <s:font script="Sinh" typeface="Nirmala UI" />
+            <s:font script="Syrc" typeface="Estrangelo Edessa" />
+            <s:font script="Taml" typeface="Nirmala UI" />
+            <s:font script="Telu" typeface="Nirmala UI" />
+            <s:font script="Thaa" typeface="MV Boli" />
+            <s:font script="Tibt" typeface="Microsoft Himalaya" />
+            <s:font script="Yiii" typeface="Microsoft Yi Baiti" />
+        </s:fontSlot>
+    </s:fontSlots>
+</s:fontScheme>
