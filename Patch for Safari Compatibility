@@ -1,2 +1,23 @@
-<!--SharePoint 2010 does not render properly in Safari 8.0 , 7.1, 6.0-->
+<!--SharePoint 2010 does not render properly in Safari  13, 8.0 , 7.1, 6.0-->
 <!-You need to add some codes in order to fix the problem-->
+
+<!--PC or Laptop-->
+
+C:\Inetpub\wwwroot\wss\VirtualDirectories\\App_Browsers\compat.browser”
+
+<browser refID="Safari60">
+    <controlAdapters>
+        <adapter controlType="System.Web.UI.WebControls.Menu" adapterType="" />
+    </controlAdapters>
+</browser>
+
+
+<!--Mobile Devices-->
+
+C:\Inetpub\wwwroot\wss\VirtualDirectories\\App_Browsers\compat.browser
+
+<browser refID="Safari60">
+    <controlAdapters>
+        <adapter controlType="System.Web.UI.WebControls.Menu" adapterType="" />
+    </controlAdapters>
+</browser>
