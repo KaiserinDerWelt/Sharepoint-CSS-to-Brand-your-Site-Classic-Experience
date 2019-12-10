@@ -1,0 +1,14 @@
+
+<head>
+<title>Edit</title>
+
+</head>
+<body>
+<!--You must create the code  within the sharepoint container  ASP-->
+<h1>Hello</h1>
+<p>Welcome to the SharePoint Journey</p>
+
+<script>
+<!--Scripts for sharepoint designer 2010-2013 work fine with jquery, bootstrap CDN(Check what version on this repository-->
+</script>
+</body>
