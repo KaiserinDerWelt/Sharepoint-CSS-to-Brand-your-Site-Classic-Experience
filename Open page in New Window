@@ -1,0 +1,2 @@
+/*Target _blank is necessary to open the application in a new window*/
+<a href="LINK" target="_blank">Go to wherever you want</a>
