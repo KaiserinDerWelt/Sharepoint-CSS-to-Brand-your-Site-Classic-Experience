@@ -1,0 +1,18 @@
+/*Screen Resolutions are tricky*/
+
+/*Media Queries are rules to be applied to change the design of a website based on the screen's characteristics*/
+
+/*Media Queries work under specific conditions*/
+
+/*Media Queries work in all browsers*/
+
+/*MQ in another Stylesheet: */
+
+<link rel="stylesheet" type="text/css" href="LINK HERE">
+
+@media screen and (max-width: 1280px) {
+    /* Write your CSS properties here */
+}
+
+/*MQ inline code: */
+<link rel="stylesheet" media="screen and (max-width: 1280px)" href="css/small_resolution.css" type="text/css">
