@@ -1,0 +1,6 @@
+
+Margin value as percentage = desired margin in pixels / width of containing element * 100
+
+/*Example*/
+
+MVP = 500/30*100
