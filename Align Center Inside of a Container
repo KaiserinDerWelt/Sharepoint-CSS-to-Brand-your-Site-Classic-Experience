@@ -3,7 +3,7 @@
 /*Remember to use the !important property to OVER WRITTE the Core15.css file, it gonna save you a lot of time*/
       
       
-    -YourClass  {
+    .YourClass  {
     display: flex !important;
     align-items: center !important;
     justify-content: center !important;
