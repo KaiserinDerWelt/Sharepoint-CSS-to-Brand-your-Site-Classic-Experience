@@ -1,0 +1,5 @@
+
+.YourClass{
+ font-family: "FontAwesome";
+ content:'\f007';
+}
