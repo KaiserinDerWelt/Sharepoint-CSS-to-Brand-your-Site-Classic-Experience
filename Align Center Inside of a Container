@@ -8,3 +8,10 @@
     align-items: center !important;
     justify-content: center !important;
     }
+
+
+Old school option:
+
+.YourClassHere {
+  align-self: center;
+}
