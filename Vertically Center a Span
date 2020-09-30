@@ -1,0 +1,7 @@
+
+<!--This bug costed me 1 hour of my life!!-->
+
+span {
+  display: inline-flex;
+  align-items: center;
+}
