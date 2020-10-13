@@ -1,0 +1,5 @@
+// Options: visible, hidden, scroll, auto	
+YourDiv {
+    overflow-x: hidden; //horizontal
+    overflow-y: scroll; //vertical
+}
